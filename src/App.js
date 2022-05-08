@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+import NavBar from './NavBar';
+import NavBaw from './Navbaw';
+import Home from './Home';
+import Beans from './Beans';
+import Gc from './Gc';
+import Ic from './Ic';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { Route, BrowserRouter as Router, Routes, Navigate } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+   <>
+   <Router> 
+     
+     <NavBar />
+     <NavBaw />
+     <Routes>
+     
+     <Route path="/" element={<Home/>}></Route>
+     <Route path="/Home" element={<Home/>}></Route>
+     <Route path="/beans" element={<Beans/>}></Route>
+     <Route path="/ic" element={<Ic/>}></Route>
+     <Route path="/gc" element={<Gc/>}></Route>
+      {/* <Beans/>
+     <Ic/>
+     <Gc/> */}
+
+     </Routes> 
+     
+    </Router>
+   </>
+  
   );
 }
 

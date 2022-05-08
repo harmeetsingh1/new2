@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.colo{
+    font-family:'Pacifico', cursive; 
+    font-weight: 300;
+    
+}
+
+a.nav-link{
+    color: rgb(79, 8, 8); 
+    font-size: 22px;
+    
+}
+
+#cont2{
+    padding-top: 12px;
+}
+
+a.nav-link:hover{
+    color:rgb(227, 121, 121);
+}
+
+a.nav-link:focus{
+    color:rgb(227, 121, 121);
+}

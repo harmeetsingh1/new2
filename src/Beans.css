@@ -1,0 +1,21 @@
+div.bh{
+    padding-top: 12px;
+    margin-right: 100px;
+    
+    
+}
+div.grid{
+    padding-top: 12px;
+    margin-left: 218px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+
+img.card-img-top{
+    height: min-content;
+    
+}

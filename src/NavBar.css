@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+#cont{
+  background-color: rgb(79, 8, 8);  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  
+}
+
+a.nb1.navbar-brand{
+    color:rgb(227, 121, 121);
+    font-size: 35px;
+    font-family:'Pacifico', cursive; ;
+    
+}
+
+a.nb1.navbar-brand:focus{
+  
+color:rgb(227, 121, 121); ;
+}
